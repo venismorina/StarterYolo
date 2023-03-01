@@ -2,9 +2,8 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[Ll]ibrary/
-!PlayerBuildSettings.asset
-!EditorUserBuildSettings.asset
+/[Ll]ibrary/*
+!/[Ll]ibrary/EditorUserBuildSettings.asset
 
 /[Tt]emp/
 /[Oo]bj/
