@@ -1,0 +1,186 @@
+<style>
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  #loading-cover {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .progressDiv {
+    width: 40%;
+    height: 8px;
+    border-radius: 100px;
+    background: #00000011;
+  }
+
+  .progressDiv > .progress {
+    width: 0%;
+    height: 8px;
+    border-radius: 4px;
+    background: linear-gradient(to right, #DA0E80, #3C3286, #02C7B8, #3C3286, #DA0E80);
+    background-size: 200% auto;
+    animation: progress 4s linear forwards infinite;
+  }
+
+  @keyframes progress {
+    0% {
+      background-position: 200% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    
+  }
+
+  img{
+    padding-bottom: 60px;
+    width: 500px;
+  }
+
+  h2 {
+    font-family: sans-serif;
+    color: #0e0e25;
+    padding-top: 20px;
+  }
+</style>
+
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>yolo webgl</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body class="dark">
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas"></canvas>
+    </div>
+    <div id="loading-cover" style="display:none;">
+        <img src="logo.jpg"></img>
+        <div class="progressDiv">
+          <div class="progress"></div>
+        </div>
+      
+        <h2>0%</h2>
+      
+        <script>
+          const button = document.querySelector("button");
+          const progress = document.querySelector(".progress");
+          const h2 = document.querySelector("h2");
+          var i = 0;
+          var x = 100;
+      
+          progress.style.width = "0%";
+      
+          function getRandomArbitrary(min, max) {
+            return Math.random() * (max - min) + min;
+          }
+      
+          var br = getRandomArbitrary(5, 15);
+          var inc = getRandomArbitrary(0.2, 1.8) / 10;
+      
+          setInterval(speed, 20);
+      
+          function speed() {
+            if (i < 100) {
+              i += inc;
+              if (i > 90) {
+                inc = 0.005;
+              } else if (i<20){
+                inc = 2
+              }
+              else if
+              (i > br) {
+                br = getRandomArbitrary(5, 15);
+                inc = getRandomArbitrary(0.2, 1.8) / 10;
+              }
+              h2.innerHTML = Math.floor(i).toString() + "%";
+              progress.style.width = i + "%";
+            }
+          }
+        </script>
+    </div>
+    <div id="unity-fullscreen-button" style="display: none;"></div>
+    <script>
+      const hideFullScreenButton = "";
+      const buildUrl = "Build";
+      const loaderUrl = buildUrl + "/webtesting.loader.js";
+      const config = {
+        dataUrl: buildUrl + "/webtesting.data.unityweb",
+        frameworkUrl: buildUrl + "/webtesting.framework.js.unityweb",
+        codeUrl: buildUrl + "/webtesting.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "yolo webgl",
+        productVersion: "0.1.0",
+      };
+
+      const container = document.querySelector("#unity-container");
+      const canvas = document.querySelector("#unity-canvas");
+      const loadingCover = document.querySelector("#loading-cover");
+      const fullscreenButton = document.querySelector("#unity-fullscreen-button");
+    
+
+      const canFullscreen = (function() {
+        for (const key of [
+            'exitFullscreen',
+            'webkitExitFullscreen',
+            'webkitCancelFullScreen',
+            'mozCancelFullScreen',
+            'msExitFullscreen',
+          ]) {
+          if (key in document) {
+            return true;
+          }
+        }
+        return false;
+      }());
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+        config.devicePixelRatio = 1;
+      }
+      loadingCover.style.display = "flex";
+
+      const script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+
+        
+       
+        }).then((unityInstance) => {
+          loadingCover.style.display = "none";
+          if (canFullscreen) {
+            if (!hideFullScreenButton) {
+              fullscreenButton.style.display = "";
+            }
+            fullscreenButton.onclick = () => {
+              unityInstance.SetFullscreen(1);
+            };
+          }
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>

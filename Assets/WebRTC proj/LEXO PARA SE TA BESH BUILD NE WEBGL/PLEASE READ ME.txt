@@ -1,0 +1,1 @@
+Hi, if youre going to build this project for webGL, you are going to get a missing function problem in JS, so what you want to do is replace the index file and the 2 js files with the fixed files provided in this folder, thanks.

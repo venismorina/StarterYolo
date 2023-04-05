@@ -1,0 +1,370 @@
+fileFormatVersion: 2
+guid: 459bb974bef22ae4381bc962915947d7
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FOLTORJA
+    second: {fileID: 2100000, guid: 1eb5b76812bb3b245a6345efdade3f35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: K5_CONFERENCE_JPG
+    second: {fileID: 2100000, guid: 4462ac405bb360646abc5b8b430653c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LED_SHKALLET_STAGE
+    second: {fileID: 2100000, guid: 4da41097a938dc04781daf3c0b48c921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_ScrewDecal
+    second: {fileID: 2100000, guid: bc0f9f1d20ce3344d8a2ffea9b185c74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sales_supply_top_Stand
+    second: {fileID: 2100000, guid: dc6c7bd752e14974192df0bbe9d0537a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sallesupply_1
+    second: {fileID: 2100000, guid: 4f9a0426a6eeb794ea627b9f06fbd617, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TAVOLINAT_METALI
+    second: {fileID: 2100000, guid: b0b533c4fb22ead428f32f5b733a2c78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yolo_way_rechte_wand
+    second: {fileID: 2100000, guid: ad70fe397fe577e449e667bb82d3bb5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: axytos_messetheke_jpeg
+    second: {fileID: 2100000, guid: 83d1174dcb90f6e40844a5826143cc60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: axytos_wand_jpeg
+    second: {fileID: 2100000, guid: ffbd67d5caa353447b264819bcae1d54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpet_mat
+    second: {fileID: 2100000, guid: e92ff467009f28b4b8755114542121d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_mat
+    second: {fileID: 2100000, guid: e4cc9c79e2f063f41b4a381122b09ab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: charles_jpg
+    second: {fileID: 2100000, guid: 271838846465ab542adb200fb9afee62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: construction_metal
+    second: {fileID: 2100000, guid: bf9c6d5fe069d504ea4efa049c569145, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: counter_dragonflip_jpeg
+    second: {fileID: 2100000, guid: ffc2ffecdb7e9ab44bc0f1cfd5074b21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: counter_marketsupply_jpeg
+    second: {fileID: 2100000, guid: c4b7a70ddd6704f4cb2c08732a98abbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ekrani_tv
+    second: {fileID: 2100000, guid: 5cfcdc7c9bd3e4042b39eb0fd4f3d90b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emax_digital_front_Wall_jpeg
+    second: {fileID: 2100000, guid: e736792448b47804ebcf19d974d2062b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emax_digital_wand_jpeg
+    second: {fileID: 2100000, guid: 3605f9eaa113edd4888015b4f821efd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_mat
+    second: {fileID: 2100000, guid: e31997a2c8ff58f48bd8f94c66847bb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fotelet_white
+    second: {fileID: 2100000, guid: ddfacef0080bedd47af84471b718f701, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: from_jpg
+    second: {fileID: 2100000, guid: ab69469731a0c2643abb56d2848ebf1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey_mat_reklama_librave
+    second: {fileID: 2100000, guid: 0276410991dba694694ae3b9f5b4dd7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey_mat_tavolina_yoloway
+    second: {fileID: 2100000, guid: ed9f4b99550d8f44ba41f742df59f8a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hall_walls_mat
+    second: {fileID: 2100000, guid: c4cc8b7e193b65e4fb8b7b1e46a33d0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: k5_logo
+    second: {fileID: 2100000, guid: e927cce2b4bd0a94b94783cc0c5a1846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: karrika_expo_Stage
+    second: {fileID: 2100000, guid: 53f6ae681406c31438fbacd417e3f336, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: karrika_mat
+    second: {fileID: 2100000, guid: 832e07de397196d44813cf43e2f94ce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kembet_e_stand_mat
+    second: {fileID: 2100000, guid: 265ba4d1b489a38439bdc96b4e9215ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: led_mat
+    second: {fileID: 2100000, guid: a6461be834d07994eb82bfc62d7caa30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linke_wand_inviqa_bigcommerce
+    second: {fileID: 2100000, guid: ee91226ce16b6f94585388114f67d3b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: make_jpg
+    second: {fileID: 2100000, guid: bd4785845a85dca4697471badd75a631, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: masse_wand_dragonflip_jpeg
+    second: {fileID: 2100000, guid: e564dfa5c1fcbdc4499e1bc0139a6b42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mbajtesae_librave_Transparent
+    second: {fileID: 2100000, guid: db570474dbb9ed5418fe9003e43ea6fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: megawall_marketupply_jpeg
+    second: {fileID: 2100000, guid: b4e6bc3cee2970d45ab649ac009ae5d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metali_karrikat_mat
+    second: {fileID: 2100000, guid: 68dc0904db9a9e84c9f09a7e30ffe7a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ouch_jpg
+    second: {fileID: 2100000, guid: 48e644fe7731cd1438e59ca352de9e07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: posteri_mat
+    second: {fileID: 2100000, guid: 8ed55301a30b9ab449b54e4db6a9ecce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rechte_wand_inviqa_bigcommerce
+    second: {fileID: 2100000, guid: cec63a158921d2c469fbc7ae34d382c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rekalam_white_materiali
+    second: {fileID: 2100000, guid: 24ecae63b8ea91a42ad89b22feda5b5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reklama_ku_Vendoset_yoloway
+    second: {fileID: 2100000, guid: 0acdc0ec685967c418bca4d9b43c2373, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reklama_yolo_to_metaverse
+    second: {fileID: 2100000, guid: 3e43b12a6249e2b4797ca5129faf8242, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sale_supply_2
+    second: {fileID: 2100000, guid: 7d4d70dfeef12aa4b8050e9a55ee40b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sale_supply_logo
+    second: {fileID: 2100000, guid: 200ab061ea486f74aa46a930a9c78cbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shkallet_expo_Stage
+    second: {fileID: 2100000, guid: 94977948d7feb5e4b821dda8be2996e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stand_walls_mat
+    second: {fileID: 2100000, guid: 23b355b98c2b53144abe687e40510f48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tavolinat_e_bardha
+    second: {fileID: 2100000, guid: 7de6cab23a4945e4bb00ab78fc988476, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tv_mat
+    second: {fileID: 2100000, guid: b7bf6b006bc32274cb7bd0e38adda96b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_metal_drita_mat
+    second: {fileID: 2100000, guid: 175546e59b02bf248b2033417188642f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_tables_mat
+    second: {fileID: 2100000, guid: c99238cabfa9f644fb60e2cd0b67b089, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wow_jpg
+    second: {fileID: 2100000, guid: aca0dbb7f94135e4b81737bbce2a6458, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yolo_way_linke_Wand
+    second: {fileID: 2100000, guid: 287f2b025095fac43bc1d9f561983227, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zignify_back_Wall_jpeg
+    second: {fileID: 2100000, guid: 95dd9d5182a8fde4fae0c9d01a6050a0, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

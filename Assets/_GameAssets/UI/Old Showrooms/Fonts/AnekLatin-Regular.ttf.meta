@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 0c1bf278b58de1a4ba2b6c170a8474ae
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Anek Latin
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a37df7043db00e04d996c845a481e773, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

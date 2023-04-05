@@ -38,6 +38,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/WebRTC proj/Scenes/Scene_net.unity
+    guid: 3196579ce80b03b4e8cef96c74afcd1e
+  - enabled: 1
+    path: Assets/_GameAssets/Scenes/Old Showrooms/K5 scene.unity
+    guid: 9aefd1db03e1ec342bb6223aaae2e356
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
       type: 2}
